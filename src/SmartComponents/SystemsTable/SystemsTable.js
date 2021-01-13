@@ -21,7 +21,7 @@ import {
 } from 'PresentationalComponents';
 
 import { exportFromState, selectAll, clearSelection, SELECT_ENTITY } from 'Store/ActionTypes';
-import { systemsWithRuleObjectsFailed } from 'Utilities/ruleHelpers';
+import { systemsWithRuleObjectsFailed } from '@redhat-cloud-services/frontend-components-inventory-compliance';
 import { FilterConfigBuilder } from '@redhat-cloud-services/frontend-components-inventory-compliance';
 import { entitiesReducer } from 'Store/Reducers/SystemStore';
 import {

@@ -4,7 +4,7 @@ import {
     profilesRulesPassed,
     profilesRulesFailed,
     systemsWithRuleObjectsFailed
-} from './ruleHelpers';
+} from '@redhat-cloud-services/frontend-components-inventory-compliance';
 
 describe('passed count', () => {
     it('should set rules passed as the sum over all profiles', () => {

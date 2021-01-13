@@ -17,7 +17,7 @@ import {
 import {
     profilesRulesPassed,
     profilesRulesFailed
-} from 'Utilities/ruleHelpers';
+} from '@redhat-cloud-services/frontend-components-inventory-compliance';
 import Truncate from 'react-truncate';
 import { mergeArraysByKey } from '@redhat-cloud-services/frontend-components-utilities/files/helpers';
 

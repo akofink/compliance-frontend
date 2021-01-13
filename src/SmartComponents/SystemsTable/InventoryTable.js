@@ -18,9 +18,9 @@ import {
 import { Alert } from '@patternfly/react-core';
 import { TableVariant } from '@patternfly/react-table';
 import {
-    ComplianceRemediationButton
+    ComplianceRemediationButton,
+    systemsWithRuleObjectsFailed
 } from '@redhat-cloud-services/frontend-components-inventory-compliance';
-import { systemsWithRuleObjectsFailed } from 'Utilities/ruleHelpers';
 import useFilterConfig from 'Utilities/hooks/useFilterConfig';
 
 const InventoryTable = ({
